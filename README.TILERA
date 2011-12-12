@@ -1,0 +1,5 @@
+
+To build the library for Tilera, run:
+$ ./configure --host=tile
+$ make
+
