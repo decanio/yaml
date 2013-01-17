@@ -1,5 +1,13 @@
+libyaml can be compiled either natively on a Tilera plafor or
+cross compiled on an x86 host for a Tilera target.
 
-To build the library for Tilera, run:
+To natively compile libyaml on a Tilera platform run:
+
+$ ./configure
+$ make
+
+To cross compile libyaml for Tilera on an x86 host run:
+
 $ ./configure --host=tile
 $ make
 
